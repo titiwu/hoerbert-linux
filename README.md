@@ -1,7 +1,7 @@
 # Hörbert Helper for Linux
 Helper script for converting audio files for the music player for children
 
-Hörbert is a mp3 player for children which requires Mono-WAV files for energy saving playback. 
+[Hörbert](https://www.hoerbert.com/) is a mp3 player for children which requires Mono-WAV files for energy saving playback. 
 For Windows and Mac graphical tools are provided, for Linux so far only the `sox` command.
 
 ## mp3toHoerbert 
