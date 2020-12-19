@@ -45,7 +45,7 @@ for my_dir in *; do
         new=$(printf "%d" "$a")
         convert_file &
         let a=a+1
-    done < <(find -iname "*.mp3" -o -iname "*.ogg" | sort -n)
+    done < <(find -iname "*.mp3" -o -iname "*.ogg" -o -iname "*.wav" | sort -n)
     cd ..
   fi
 done
